@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Class-Path: ./lib/gson-1.7.1.jar
+Main-Class: main.Main

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:icon="@drawable/abc_ic_menu_moreoverflow_normal_holo_dark"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_bar_settings">
+        <menu>
+            <item
+                android:id="@+id/action_scan_file"
+                android:title="浏览文件"/>
+            <item
+                android:id="@+id/action_mouse"
+                android:title="控制鼠标"/>
+            <item
+                android:id="@+id/action_kepad"
+                android:title="控制键盘"/>
+            <item
+                android:id="@+id/action_shutdown"
+                android:title="关机"/>
+            <item
+                android:id="@+id/action_setting"
+                android:title="设置"/>
+            <item
+                android:id="@+id/action_about"
+                android:title="关于"/>
+        </menu>
+    </item>
+
+</menu>
